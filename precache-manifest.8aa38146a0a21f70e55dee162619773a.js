@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feca59a7a167c38113c89c0337edb111",
+    "revision": "34c1634c78b8c36d0f700add70111d62",
     "url": "/react-ts-sass-restaurant-app/index.html"
   },
   {
