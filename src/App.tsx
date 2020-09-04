@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import TopImg from './components/TopImg';
+import OurStory from './components/OurStory';
+import SpecialMenu from './components/SpecialMenu';
+import RandomQuote from './components/RandomQuote';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='App'>
+			<Header />
+			<TopImg />
+			<OurStory />
+			<SpecialMenu />
+			<RandomQuote />
+		</div>
+	);
 }
 
 export default App;

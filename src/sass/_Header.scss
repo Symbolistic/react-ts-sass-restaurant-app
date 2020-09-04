@@ -1,0 +1,29 @@
+header {
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	padding: 20px;
+	z-index: 20;
+
+	.header-nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.logo {
+		display: inline-block;
+		padding: 0 10px;
+	}
+
+	.nav {
+		display: inline-block;
+		text-align: right;
+	}
+
+	a {
+		display: inline-block;
+		color: #ffffff;
+		text-decoration: none;
+		padding: 0 10px;
+	}
+}
