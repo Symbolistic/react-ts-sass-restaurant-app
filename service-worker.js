@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-ts-sass-restaurant-app/precache-manifest.0595aa86db347c93ddbc86c024418c04.js"
+  "/react-ts-sass-restaurant-app/precache-manifest.f4db5b5925a308ca37faf7aae3ba8a96.js"
 );
 
 self.addEventListener('message', (event) => {
