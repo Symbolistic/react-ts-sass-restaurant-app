@@ -6,6 +6,11 @@ const Header = () => {
 		<header>
 			<Container className='header-nav'>
 				<div className='logo'>Logo Here</div>
+				<label for='hamburger'>
+					<i class='fas fa-bars'></i>
+				</label>
+				<input type='checkbox' id='hamburger' />
+
 				<div className='nav'>
 					<a href='#'>Home</a>
 					<a href='#'>Party Platters</a>

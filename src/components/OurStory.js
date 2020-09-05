@@ -27,9 +27,7 @@ const OurStory = () => {
 						</a>
 					</Grid>
 
-					<Grid item xs={12} md={6} className='video-img col'>
-						ok
-					</Grid>
+					<Grid item xs={12} md={6} className='video-img col'></Grid>
 				</Grid>
 			</Container>
 		</section>

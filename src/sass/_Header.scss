@@ -26,4 +26,17 @@ header {
 		text-decoration: none;
 		padding: 0 10px;
 	}
+
+	.fa-bars {
+		display: none;
+		font-size: 2rem;
+	}
+
+	/* Hide Hamburger */
+	#hamburger {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 800px) {
 }

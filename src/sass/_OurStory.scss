@@ -27,12 +27,12 @@
 	}
 
 	.video-img {
-		max-width: 300px;
+		max-width: 400px;
 		height: 550px;
-		background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0, #002d77 100%);
-		background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0, #000 100%),
+		background: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0, #002d77 100%);
+		background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0, #000 100%),
 			url('../assets/cookingart.jpg');
-		background-position: right;
+		background-position: center;
 		background-size: cover;
 		margin-top: 40px;
 	}
