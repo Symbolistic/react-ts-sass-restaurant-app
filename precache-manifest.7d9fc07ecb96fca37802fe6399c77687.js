@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d78e1e0af61d5c6482f6f240a4bbc7df",
+    "revision": "cdb514f90802efb341a46682a884aafc",
     "url": "/react-ts-sass-restaurant-app/index.html"
   },
   {
-    "revision": "221fe505e6e03b76218e",
-    "url": "/react-ts-sass-restaurant-app/static/css/main.2c4133f3.chunk.css"
+    "revision": "0b184b5e2a2faef01cf0",
+    "url": "/react-ts-sass-restaurant-app/static/css/main.4f44fbac.chunk.css"
   },
   {
-    "revision": "79852c6a73762b6ddc55",
-    "url": "/react-ts-sass-restaurant-app/static/js/2.909f86cf.chunk.js"
+    "revision": "724a94365fe42852f0bf",
+    "url": "/react-ts-sass-restaurant-app/static/js/2.767ea9d8.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/react-ts-sass-restaurant-app/static/js/2.909f86cf.chunk.js.LICENSE.txt"
+    "url": "/react-ts-sass-restaurant-app/static/js/2.767ea9d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "221fe505e6e03b76218e",
-    "url": "/react-ts-sass-restaurant-app/static/js/main.8a5095be.chunk.js"
+    "revision": "0b184b5e2a2faef01cf0",
+    "url": "/react-ts-sass-restaurant-app/static/js/main.f9de329d.chunk.js"
   },
   {
     "revision": "d0bf466878818f24551d",
