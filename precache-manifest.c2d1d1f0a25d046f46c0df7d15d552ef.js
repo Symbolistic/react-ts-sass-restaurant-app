@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78a1bf4d3196825f78ceda6e725f0c0d",
+    "revision": "23f641dff8643db6bc7505a5f6fcb9ff",
     "url": "/react-ts-sass-restaurant-app/index.html"
   },
   {
-    "revision": "db18fb41409acd938ad9",
-    "url": "/react-ts-sass-restaurant-app/static/css/main.9f252ea8.chunk.css"
+    "revision": "d5b4d597d02f3d691469",
+    "url": "/react-ts-sass-restaurant-app/static/css/main.706839be.chunk.css"
   },
   {
     "revision": "724a94365fe42852f0bf",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-ts-sass-restaurant-app/static/js/2.767ea9d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db18fb41409acd938ad9",
+    "revision": "d5b4d597d02f3d691469",
     "url": "/react-ts-sass-restaurant-app/static/js/main.bf80650b.chunk.js"
   },
   {
