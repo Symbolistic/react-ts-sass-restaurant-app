@@ -10,15 +10,15 @@ const ContactUs = () => {
 		<section id='ContactUs' className='texturebg'>
 			<Container>
 				<h5 className='comp-title'>Contact Us</h5>
-				<h2>Delicious Flavor of Authumn</h2>
+				<h2>We would love to hear from you!</h2>
 
 				<Grid container spacing={3} justify='center' className='box'>
 					<Grid item xs={12} md={6}>
 						<div className='title'>{store.companyInfo.location}</div>
-						<h6 className='address'>435 Main St, Jamacia, NY, 12402</h6>
+						<h6 className='address'>8302 95th Avenue, Ozone Park, NY 11416</h6>
 						<p>
 							<strong>email: </strong>
-							<a href='mailto:info@primesteak.com'>info@primesteak.com</a>
+							<a href='mailto:info@primesteak.com'>info@donpollonyc.com</a>
 						</p>
 					</Grid>
 					<Grid item xs={12} md={6}>
@@ -27,12 +27,12 @@ const ContactUs = () => {
 						<h6>Lunch Service: </h6>
 						<p>
 							Friday, Saturday, and Sunday <br />
-							from 12pm to 1:30am
+							from 12pm to 8:00pm
 						</p>
 						<h6>Dinner Service: </h6>
 						<p>
 							Daily <br />
-							from 6pm to 9:30pm
+							from 12pm to 8:00pm
 						</p>
 					</Grid>
 				</Grid>

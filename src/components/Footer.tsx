@@ -6,16 +6,19 @@ const Footer = () => {
 		<footer>
 			<Container>
 				<nav className='menu'>
-					<a href='#'>Our Story</a>
-					<a href='#'>Reviews</a>
-					<a href='#'>Special Menu</a>
-					<a href='#'>Reservations</a>
-					<a href='#'>Contact Us</a>
+					<a href='#OurStory'>Our Story</a>
+					<a href='#Reviews'>Reviews</a>
+					<a href='#SpecialMenu'>Special Menu</a>
+					<a href='#ContactUs'>Reservations</a>
+					<a href='#ContactUs'>Contact Us</a>
 				</nav>
 
 				<ul className='social-media'>
 					<li>
-						<a href='http://www.facebook.com' target='new'>
+						<a
+							href='https://www.facebook.com/donpollonyc/?fref=ts'
+							target='new'
+						>
 							<i className='fab fa-facebook-square'></i>
 						</a>
 					</li>
@@ -30,7 +33,10 @@ const Footer = () => {
 						</a>
 					</li>
 					<li>
-						<a href='http://www.instagram.com' target='new'>
+						<a
+							href='https://www.instagram.com/donpollorestaurant/'
+							target='new'
+						>
 							<i className='fab fa-instagram'></i>
 						</a>
 					</li>

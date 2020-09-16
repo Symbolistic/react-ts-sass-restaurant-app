@@ -21,6 +21,28 @@
 			position: relative;
 			margin-bottom: 75px;
 		}
+
+		.donpollo {
+			background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0, #002d77 100%);
+			background-image: url('../assets/donpollocombo.jpg');
+			background-position: center;
+			background-size: cover;
+		}
+
+		.rotischicken {
+			background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0, #002d77 100%);
+			background-image: url('../assets/rotisseriechicken.jpg');
+			background-position: center;
+			background-size: cover;
+		}
+
+		.arroz {
+			background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0, #002d77 100%);
+			background-image: url('../assets/arrozchaufa.jpg');
+			background-position: center;
+			background-size: cover;
+		}
+
 		.price-circle {
 			position: absolute;
 			bottom: 0;

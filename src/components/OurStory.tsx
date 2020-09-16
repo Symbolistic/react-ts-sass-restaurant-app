@@ -9,20 +9,20 @@ const OurStory = () => {
 				<Grid container spacing={3} alignItems='center' justify='center'>
 					<Grid item xs={12} md={6}>
 						<h5 className='comp-title'>Our Story</h5>
-						<h2>Cooking is the art of adjustment</h2>
+						<h2>Authentic Peruvian Food</h2>
 						<p>
-							Fixie mlkshk vexillologist VHS knausgaard health goth, messenger
-							bag vegan brunch meh waistcoat bitters. Woke paleo offal food
-							truck viral letterpress lyft stumptown skateboard schlitz kombucha
-							meditation ethical actually. Crucifix master cleanse lomo,
-							jianbing meditation meggings heirloom sartorial vape church-key
-							synth artisan iceland austin sriracha. Sustainable salvia seitan
-							coloring book tattooed butcher.
+							We have been part of the community for over 10 years and greatly
+							appreciate our neighbors/patrons. Staff are friendly and helpful
+							to the people who are first time and coming to test Peruvian food.
+							Small restaurant, clean, fresh flavor. Famous Peruvian food
+							rotisserie and ceviche served well. Mixed seafood, full of flavour
+							and crunchy.
 						</p>
 						<div className='quote'>
-							"The best steak in New York" - <strong>Thomas Eggsy</strong>
+							"The best peruvian chicken in the area" -{' '}
+							<strong>Victor Gomez</strong>
 						</div>
-						<a href='#' className='reserve-btn'>
+						<a href='#ContactUs' className='reserve-btn'>
 							Reserve
 						</a>
 					</Grid>

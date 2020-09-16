@@ -12,7 +12,7 @@ const SpecialMenu = () => {
 			return (
 				<Grid item xs={12} md={4} key={item.title}>
 					<div className='box'>
-						<div className='box-img'>
+						<div className={`box-img ${item.class}`}>
 							<div className='price-circle'>{item.price}</div>
 						</div>
 
@@ -28,7 +28,7 @@ const SpecialMenu = () => {
 		<section id='SpecialMenu' className='texturebg'>
 			<Container>
 				<h5 className='comp-title'>Special Menu</h5>
-				<h2>Delicious Flavor of Autumn</h2>
+				<h2>Delicious Flavor of Peru</h2>
 				<Grid
 					container
 					spacing={3}

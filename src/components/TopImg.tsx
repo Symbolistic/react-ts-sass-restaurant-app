@@ -17,8 +17,8 @@ const TopImg = () => {
 						<div className='booking'>Book Table Directly</div>
 						<h2>{store.companyInfo.phone}</h2>
 						<div className='hours'>
-							Opening Hours <strong>Mon - Fri: </strong> 9am - 9pm
-							<strong> Weekend: </strong> 9am - 11pm
+							Opening Hours <strong>Mon - Fri: </strong> 12pm - 8pm
+							<strong> Weekend: </strong> 12pm - 8pm
 						</div>
 					</Container>
 				</div>
