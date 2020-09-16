@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from './components/Header';
 import TopImg from './components/TopImg';
 import OurStory from './components/OurStory';
@@ -11,6 +11,14 @@ import MenuModal from './components/MenuModal';
 
 function App() {
 	const [hide, setHide] = useState<any>(true);
+
+	useEffect(() => {
+		if (!hide) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = 'auto';
+		}
+	}, [hide]);
 
 	return (
 		<div className='App'>
