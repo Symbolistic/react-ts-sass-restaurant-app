@@ -23,13 +23,8 @@ const Footer = () => {
 						</a>
 					</li>
 					<li>
-						<a href='http://www.twitter.com' target='new'>
+						<a href='https://twitter.com/donpollonyc' target='new'>
 							<i className='fab fa-twitter'></i>
-						</a>
-					</li>
-					<li>
-						<a href='https://myaccount.google.com/' target='new'>
-							<i className='fab fa-google-plus-g'></i>
 						</a>
 					</li>
 					<li>

@@ -39,7 +39,50 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
-	.header-nav {
-		justify-content: center;
+	header {
+		padding: 0 !important; // This will override material UI's container
+
+		.header-nav {
+			flex-direction: column;
+			justify-content: stretch;
+			height: 100vh;
+			padding: 0 !important; // This will override material UI's container
+		}
+		.fa-bars {
+			display: block;
+			margin: 20px 10px;
+		}
+
+		.nav {
+			position: absolute;
+			top: -200px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			text-align: center;
+			width: 100%;
+			height: 0;
+			transition: all 0.5s linear;
+			align-content: center;
+		}
+		input:checked ~ .nav {
+			position: relative;
+			top: 0;
+			display: flex;
+			background-color: rgba(165, 42, 42, 0.9);
+			height: 100%;
+		}
+
+		/* Break down menu items into vertical */
+		a {
+			box-sizing: border-box;
+			width: 100%;
+			height: calc(100% / 5);
+			line-height: 7;
+			border-top: 1px solid black;
+		}
+		a:hover {
+			background-color: burlywood;
+		}
 	}
 }
