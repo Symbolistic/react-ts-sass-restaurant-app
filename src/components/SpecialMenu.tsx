@@ -3,7 +3,11 @@ import { Container } from '@material-ui/core';
 import Grid from '@material-ui/core/Grid';
 import { Store } from './Store';
 
-const SpecialMenu = () => {
+type Props = {
+	setHide: (hidden: boolean) => void;
+};
+
+const SpecialMenu: React.FC<Props> = ({ setHide }) => {
 	const store = useContext(Store);
 
 	// This will loop through specialMenuData to get all the special menu items
@@ -38,9 +42,7 @@ const SpecialMenu = () => {
 				>
 					{loopMenu()}
 				</Grid>
-				<a href='#' className='link'>
-					View Full Menu
-				</a>
+				<button onClick={() => setHide(false)}>View Full Menu</button>
 			</Container>
 		</section>
 	);

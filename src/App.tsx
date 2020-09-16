@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import TopImg from './components/TopImg';
 import OurStory from './components/OurStory';
@@ -7,18 +7,22 @@ import RandomQuote from './components/RandomQuote';
 import Reviews from './components/Reviews';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import MenuModal from './components/MenuModal';
 
 function App() {
+	const [hide, setHide] = useState<any>(true);
+
 	return (
 		<div className='App'>
 			<Header />
 			<TopImg />
 			<OurStory />
-			<SpecialMenu />
+			<SpecialMenu setHide={setHide} />
 			<RandomQuote />
 			<Reviews />
 			<ContactUs />
 			<Footer />
+			<MenuModal hide={hide} setHide={setHide} />
 		</div>
 	);
 }
