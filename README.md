@@ -1,4 +1,4 @@
-## Restaurant
+## Freelance Work: Don Pollo's Restaurant Website
 
 This is an app designed for a local restaurant Don Pollo.
 This was made using React, TypeScript, Sass and Material UI
